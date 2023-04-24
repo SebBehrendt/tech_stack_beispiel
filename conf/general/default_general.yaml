@@ -2,3 +2,5 @@ server_type: "SQL Server"
 server_name: "ODU-GALV1\\SQLEXPRESS"
 db_name: "galvcon_intinga"
 table_name: "dbo.start_upSet"
+url: "localhost"
+port: 8000
