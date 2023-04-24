@@ -1,0 +1,7 @@
+agent: "PPO"
+observation_space: 
+  - next_bath_of_job
+  - possible_transport_jobs
+  - duration_of_job
+  - status of baths
+reward: "Combined_reward"

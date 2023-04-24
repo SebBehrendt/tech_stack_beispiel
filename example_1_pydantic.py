@@ -1,4 +1,5 @@
 import json
+
 from pydantic import parse_obj_as
 
 from src.models.hoist import Hoist

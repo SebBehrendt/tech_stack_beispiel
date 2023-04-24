@@ -1,0 +1,36 @@
+{
+    "Hoists": [
+        {
+            "id": 99,
+            "line": 1,
+            "transverser": false,
+            "travel_range": [1, 16],
+            "ini_station": 3,
+            "num_actions": 257
+        },
+        {
+            "id": 98,
+            "line": 1,
+            "transverser": false,
+            "travel_range": [10, 26],
+            "ini_station": 21,
+            "num_actions": 290
+        }
+    ],
+    "Stations": [
+        {
+            "id": 98,
+            "type": "LOAD_UNLOAD",
+            "line": 1,
+            "w_coeff": 0.1
+        },
+        {
+            "id": 99,
+            "type": "PICKLING",
+            "line": 1,
+            "w_coeff": 0.7,
+            "alternatives": [9, 10]
+        }
+    ]
+
+}
