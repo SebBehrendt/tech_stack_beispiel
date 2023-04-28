@@ -39,4 +39,4 @@ class RedundantStation(Station):
     alternatives: typing.List[int]
 
 STATION_UNION_TYPE = Station | RedundantStation
-# STATION_UNION_TYPE = typing.Annotated[typing.Union[Station, RedundantStation], ]
+# STATION_UNION_TYPE = typing.Union[Station, RedundantStation]

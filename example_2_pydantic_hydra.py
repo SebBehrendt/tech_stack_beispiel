@@ -38,7 +38,7 @@ def example_app(cfg: DictConfig) -> None:
 
     hoists = [parse_obj_as(Hoist, hoist_data) for hoist_data in data["Hoists"]]
 
-    print("\nStations:\n", hoists)
+    print("\nHoists:\n", hoists)
 
 
     # parse station data with pydantic to pydantic models

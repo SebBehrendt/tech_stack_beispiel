@@ -33,5 +33,3 @@ print(stations)
 
 station = stations.pop()
 print(f"Station exmample with id {station.id} and type {station.type}")
-
-
